@@ -18,6 +18,18 @@ The REST endpoints associated with each REST Controller are:
 
 The REST endpoints for the password and email controllers take in URL parameters for their respective validator classes to process:
 
-    http://localhost:<PORT>/<RECORD>/check?<RECORD TYPE>=<INPUT>
+    http://localhost:8094/<TYPE>/check?<TYPE>=<INPUT>
 
-Dissimilarly, the endpoint for the quiz controller does not take any parameters, as the hard-coded questions are simply shown unformatted.
+Dissimilarly, the endpoint for the quiz controller does not take any parameters, as the hard-coded questions are simply shown unformatted when accessing:
+
+    http://localhost:8094/quiz/questions
+
+
+INSTRUCTIONS:
+
+1) Download the demolab5.zip file and extract contacts into a target directory
+2) Open terminal/console and navigate to root directory of project (~/<TARGET DIRECTORY>/demo/)
+3) Input commands to run Spring Boot and enter in browser search bar either of the abovementioned links with their appropriate endpoints and parameters.
+
+       ./.mvnw spring-boot:run
+   
