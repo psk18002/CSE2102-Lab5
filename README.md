@@ -1,6 +1,6 @@
 # CSE2102-Lab5
 REST endpoints created for checking validity of passwords and emails via URL RequestParam inputs against hard-coded passwords and emails, and the unformatted output of hard-coded quiz questions.
-Three REST Controllers are created to either use a validator class to process and validate a record type (password, email), while a quiz service class is made to create and get the hard-coded quiz question; where the questions are record types as well.
+Three REST Controllers are created to either use a validator class to process and validate a record type (password, email), or a service class is made to create and get the hard-coded  questions (quiz); where the questions are record types as well.
 
 The REST Controllers and their associated files are:
 
