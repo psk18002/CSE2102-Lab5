@@ -16,7 +16,7 @@ The REST endpoints associated with each REST Controller are:
     EmailController.java    : /email/check
     QuizController.java     : /quiz/questions
 
-The REST endpoints for the password and email controllers take in URL parameters for their respective validator classes process:
+The REST endpoints for the password and email controllers take in URL parameters for their respective validator classes to process:
 
     http://localhost:<PORT>/<RECORD>/check?<RECORD TYPE>=<INPUT>
 
